@@ -12,8 +12,8 @@ class Solution {
         // We need to make sure to not use the same element twice so
         // to do this we can very simply use an if statement that checks
         // if they are both at the same place in the array --- once again there is definitely a more elegant solution
-        int x = 0;
-        int y = 0;
+        int x;
+        int y;
         int[] indices = new int [2];
         completed: for (int i = 0; i < nums.length; i++){
             x = nums[i];
